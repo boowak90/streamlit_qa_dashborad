@@ -174,7 +174,7 @@ def run_home():
         st.markdown(f"""
                     <div style='text-align: center; padding: 10px; border-radius: 10px; border: 1px solid #ccc;'>
                     <h4 style='margin: 0; color: #999; font-size: 20px;'>전체 이슈</h4>
-                    <h3 style='margin: 0; color: white;'>{prettify(total)}</h3>
+                    <h3 style='margin: 0; color: orange;'>{prettify(total)}</h3>
                     </div>
                     """, unsafe_allow_html=True)
     with total_col2:
@@ -252,7 +252,7 @@ def run_home():
         st.markdown(f"""
                     <div style='text-align: center; padding: 10px; border-radius: 10px; border: 1px solid #ccc;'>
                     <h4 style='margin: 0; color: #999; font-size: 20px;'>전체 이슈</h4>
-                    <h3 style='margin: 0; color: white;'>{prettify(priority_status)}</h3>
+                    <h3 style='margin: 0; color: orange;'>{prettify(priority_status)}</h3>
                     </div>
                     """, unsafe_allow_html=True)
     with col2:
